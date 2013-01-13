@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Studies Global</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="css/univapp-core.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="js/jQueryUI192/themes/cynic/jquery-ui-1.9.2.css" type="text/css" media="all" />
+  <!--[if IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
+  <!-- PNG FIX for IE6 -->
+  <!-- http://24ways.org/2007/supersleight-transparent-png-in-ie6 -->
+  <!--[if lte IE 6]>
+                <script type="text/javascript" src="js/pngfix/supersleight-min.js"></script>
+        <![endif]-->
+  <link rel="shortcut icon" href="img/logo-part.png" />
+  <script src="js/jQuery183/jquery-1.8.3.js" type="text/javascript"></script>
+  <script src="js/jQueryUI192/jquery-ui-1.9.2.js" type="text/javascript"></script>
+  <script src="js/jQuery183/jquery.hotkeys.js" type="text/javascript"></script>
+  <script src="js/jQuery183/jquery.vticker-min.js" type="text/javascript"></script>
+  <script src="js/univapp-core.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <!-- Panel -->
+
+  <div id="toppanel">
+    <div id="panel">
+      <div class="content clearfix">
+        <div class="left">
+          <h1 id="logo"><a href="#" class="notext"></a></h1>
+          <h2>Home for aspiring global students</h2>
+        </div>
+        <div class="left right">
+          <!-- Login Form -->
+          <form class="clearfix" action="#" method="post">
+            <h1>Member Login</h1>
+			<label class="grey" for="log">Username:</label> 
+			<input class="field" type="text" name="log" id="log" value="" size="23" /> 
+			<label class="grey" for="pwd">Password:</label> 
+			<input class="field" type="password" name="pwd" id="pwd" size="23" /> 
+			<label><input name="rememberme" id="rememberme" type="checkbox" checked="checked" value="forever" /> &nbsp; Remember me</label>
+            <div class="clear"></div><input type="submit" name="submit" value="Login" class="bt_login" /> <a class="lost-pwd" href="#">Lost your password?</a> <a class="lost-pwd" href="#">Not a member yet? Sign Up!</a>
+          </form>
+        </div>
+      </div>
+    </div><!-- /login --><!-- The tab on top -->
+    <div class="tab">
+      <ul class="login">
+        <li class="left">&nbsp;</li>
+        <li>Hello Guest!</li>
+        <li class="sep">|</li>
+        <li id="toggle">
+          <a id="open" class="open" href="#" name="open">Log In | Register</a> <a id="close" style="display: none;" class="close" href="#" name="close">Close Panel</a>
+        </li>
+        <li class="right">&nbsp;</li>
+      </ul>
+    </div><!-- / top -->
+  </div><!--panel -->
+
+  <div class="shell">
+    <div class="border">
+      <div id="header">
+        <h1 id="logo"><a href="#" class="notext">StudiesGlobal</a></h1>
+        <div class="socials right">
+          <ul>
+            <li><a href="#" class="rss">RSS</a></li>
+            <li><a href="#" class="fb">Facebook</a></li>
+            <li class="last"><a href="#" class="twit">Twitter</a></li>
+          </ul>
+        </div>
+        <div class="cl">&nbsp;</div>
+      </div>
+      <div id="navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <form class="searchform" action="index.html">
+		  <input class="searchfield" type="text" value="Search..." onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}" />
+		  <input class="searchbutton" type="submit" value="Go" />
+		  </form>
+        </ul>
+        <div class="cl">&nbsp;</div>
+      </div>
+      <div id="main">
+        <div id="content" class="left">
+			<div class="highlight">
+				<h1>University of Lorem Ipsum</h1>
+				<div id="accordion">
+	<h3>Introduction</h3>
+	<div>
+		<p>
+		Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+		ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+		amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+		odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+		</p>
+	</div>
+	<h3>Fee</h3>
+	<div>
+		<p>
+		Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+		purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+		velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+		suscipit faucibus urna.
+		</p>
+	</div>
+	<h3>Living</h3>
+	<div>
+		<p>
+		Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+		Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+		ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+		lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+		</p>
+		<ul>
+			<li>List item one</li>
+			<li>List item two</li>
+			<li>List item three</li>
+		</ul>
+	</div>
+	<h3>Room</h3>
+	<div>
+		<p>
+		Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+		et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+		faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+		mauris vel est.
+		</p>
+		<p>
+		Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+		Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+		inceptos himenaeos.
+		</p>
+	</div>
+	<h3>Work</h3>
+	<div>
+		<p>
+		Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+		purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+		velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+		suscipit faucibus urna.
+		</p>
+	</div>
+	<h3>Food</h3>
+	<div>
+		<p>
+		Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+		purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+		velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+		suscipit faucibus urna.
+		</p>
+	</div>
+	<h3>Hunt</h3>
+	<div>
+		<p>
+		Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+		purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+		velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+		suscipit faucibus urna.
+		</p>
+	</div>
+	<h3>Tools</h3>
+	<div>
+		<p>
+		Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+		purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+		velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+		suscipit faucibus urna.
+		</p>
+	</div>
+	<h3>Labs</h3>
+	<div>
+		<p>
+		Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+		purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+		velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+		suscipit faucibus urna.
+		</p>
+	</div>
+	<h3>Research</h3>
+	<div>
+		<p>
+		Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+		purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+		velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+		suscipit faucibus urna.
+		</p>
+	</div>
+</div>		
+
+				<br><br>
+				<a href="Universities.html" class="more right">Find My University</a>		
+			</div>
+        </div>
+		</div>
+		<div id="sidebar" class="right">
+        <h3>Ranking of Lorem Ipsum</h3>
+        <div class="rankinfo">
+			#3
+        </div>
+      </div>
+      <div class="cl">&nbsp;</div>
+        <div class="cl">&nbsp;</div>
+      </div>
+      <div class="shadow-l"></div>
+      <div class="shadow-r"></div>
+      <div class="shadow-b"></div>
+    </div>
+    <div id="footer">
+      <div class="infor">
+        <ul>
+          <li><b>Information</b></li>
+          <li>About us</li>
+          <li>Support</li>
+          <li>Colleges</li>
+          <li>Careers</li>
+          <li>Policies and Conditions</li>
+        </ul>
+      </div>
+      <p class="right">Copyright &copy; 2012, StudiesGlobal, All Rights Reserved</p><br />
+      <p class="right"></p>
+      <div class="boxIndent icon">
+        <div class="boxIndentLeft"></div>
+        <div class="boxIndentRight"></div>
+        <div class="boxIndentMiddle">
+          <div class="boxIndentContent">
+            <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+      <p class="right"></p>
+      <div class="boxIndent icon">
+        <div class="boxIndentLeft"></div>
+        <div class="boxIndentRight"></div>
+        <div class="boxIndentMiddle">
+          <div class="boxIndentContent">
+            <a href="mailto:" target="_blank"><img src="img/email.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="cl">&nbsp;</div>
+    </div>
+  </div>
+</body>
+</html>
