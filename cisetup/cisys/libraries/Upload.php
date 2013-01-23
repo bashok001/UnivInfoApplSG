@@ -1,29 +1,5 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP 5.1.6 or newer
- *
- * @package		CodeIgniter
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 1.0
- * @filesource
- */
 
-// ------------------------------------------------------------------------
-
-/**
- * File Uploading Class
- *
- * @package		CodeIgniter
- * @subpackage	Libraries
- * @category	Uploads
- * @author		ExpressionEngine Dev Team
- * @link		http://codeigniter.com/user_guide/libraries/file_uploading.html
- */
 class CI_Upload {
 
 	public $max_size				= 0;
@@ -1051,8 +1027,7 @@ class CI_Upload {
 		}
 
 		/* This is an ugly hack, but UNIX-type systems provide a "native" way to detect the file type,
-		 * which is still more secure than depending on the value of $_FILES[$field]['type'], and as it
-		 * was reported in issue #750 (https://github.com/EllisLab/CodeIgniter/issues/750) - it's better
+		 * which is still more secure than depending on the value of $_FILES[$field]['type']. it's better
 		 * than mime_content_type() as well, hence the attempts to try calling the command line with
 		 * three different functions.
 		 *
@@ -1130,7 +1105,3 @@ class CI_Upload {
 	// --------------------------------------------------------------------
 
 }
-// END Upload Class
-
-/* End of file Upload.php */
-/* Location: ./system/libraries/Upload.php */

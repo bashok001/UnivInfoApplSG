@@ -1,31 +1,5 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP 5.1.6 or newer
- *
- * @package		CodeIgniter
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 1.3.1
- * @filesource
- */
 
-// ------------------------------------------------------------------------
-
-/**
- * HTML Table Generating Class
- *
- * Lets you create tables manually or from database result objects, or arrays.
- *
- * @package		CodeIgniter
- * @subpackage	Libraries
- * @category	HTML Tables
- * @author		ExpressionEngine Dev Team
- * @link		http://codeigniter.com/user_guide/libraries/uri.html
- */
 class CI_Table {
 
 	var $rows				= array();
@@ -525,7 +499,3 @@ class CI_Table {
 
 
 }
-
-
-/* End of file Table.php */
-/* Location: ./system/libraries/Table.php */

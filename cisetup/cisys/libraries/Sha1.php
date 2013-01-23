@@ -1,47 +1,5 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP 5.1.6 or newer
- *
- * @package		CodeIgniter
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 1.0
- * @filesource
- */
 
-// ------------------------------------------------------------------------
-
-/**
- * SHA1 Encoding Class
- *
- * Purpose: Provides 160 bit hashing using The Secure Hash Algorithm
- * developed at the National Institute of Standards and Technology. The 40
- * character SHA1 message hash is computationally infeasible to crack.
- *
- * This class is a fallback for servers that are not running PHP greater than
- * 4.3, or do not have the MHASH library.
- *
- * This class is based on two scripts:
- *
- * Marcus Campbell's PHP implementation (GNU license)
- * http://www.tecknik.net/sha-1/
- *
- * ...which is based on Paul Johnston's JavaScript version
- * (BSD license). http://pajhome.org.uk/
- *
- * I encapsulated the functions and wrote one additional method to fix
- * a hex conversion bug. - Rick Ellis
- *
- * @package		CodeIgniter
- * @subpackage	Libraries
- * @category	Encryption
- * @author		ExpressionEngine Dev Team
- * @link		http://codeigniter.com/user_guide/general/encryption.html
- */
 class CI_SHA1 {
 
 	public function __construct()
@@ -245,7 +203,3 @@ class CI_SHA1 {
 		return bindec($bin);
 	}
 }
-// END CI_SHA
-
-/* End of file Sha1.php */
-/* Location: ./system/libraries/Sha1.php */

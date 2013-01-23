@@ -1,31 +1,5 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP 5.1.6 or newer
- *
- * @package		CodeIgniter
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 1.3.1
- * @filesource
- */
 
-// ------------------------------------------------------------------------
-
-/**
- * Unit Testing Class
- *
- * Simple testing class
- *
- * @package		CodeIgniter
- * @subpackage	Libraries
- * @category	UnitTesting
- * @author		ExpressionEngine Dev Team
- * @link		http://codeigniter.com/user_guide/libraries/uri.html
- */
 class CI_Unit_test {
 
 	var $active					= TRUE;
@@ -377,7 +351,3 @@ function is_false($test)
 {
 	return (is_bool($test) AND $test === FALSE) ? TRUE : FALSE;
 }
-
-
-/* End of file Unit_test.php */
-/* Location: ./system/libraries/Unit_test.php */

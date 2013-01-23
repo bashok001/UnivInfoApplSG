@@ -1,35 +1,4 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP 5.1.6 or newer
- *
- * @package		CodeIgniter
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 1.0
- * @filesource
- */
-
-// ------------------------------------------------------------------------
-
-/**
- * Zip Compression Class
- *
- * This class is based on a library I found at Zend:
- * http://www.zend.com/codex.php?id=696&single=1
- *
- * The original library is a little rough around the edges so I
- * refactored it and added several additional methods -- Rick Ellis
- *
- * @package		CodeIgniter
- * @subpackage	Libraries
- * @category	Encryption
- * @author		ExpressionEngine Dev Team
- * @link		http://codeigniter.com/user_guide/libraries/zip.html
- */
 class CI_Zip  {
 
 	var $zipdata	= '';
@@ -418,6 +387,3 @@ class CI_Zip  {
 	}
 
 }
-
-/* End of file Zip.php */
-/* Location: ./system/libraries/Zip.php */

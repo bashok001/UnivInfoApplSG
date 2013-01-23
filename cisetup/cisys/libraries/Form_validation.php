@@ -1,29 +1,5 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP 5.1.6 or newer
- *
- * @package		CodeIgniter
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 1.0
- * @filesource
- */
 
-// ------------------------------------------------------------------------
-
-/**
- * Form Validation Class
- *
- * @package		CodeIgniter
- * @subpackage	Libraries
- * @category	Validation
- * @author		ExpressionEngine Dev Team
- * @link		http://codeigniter.com/user_guide/libraries/form_validation.html
- */
 class CI_Form_validation {
 
 	protected $CI;
@@ -1376,7 +1352,3 @@ class CI_Form_validation {
 	}
 
 }
-// END Form Validation Class
-
-/* End of file Form_validation.php */
-/* Location: ./system/libraries/Form_validation.php */

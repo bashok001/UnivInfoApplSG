@@ -1,32 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP 5.1.6 or newer
- *
- * @package		CodeIgniter
- * @author		EllisLab Dev Team
- * @copyright	Copyright (c) 2006 - 2012, EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 1.0
- * @filesource
- */
 
-// ------------------------------------------------------------------------
-
-/**
- * Migration Class
- *
- * All migrations should implement this, forces up() and down() and gives
- * access to the CI super-global.
- *
- * @package		CodeIgniter
- * @subpackage	Libraries
- * @category	Libraries
- * @author		Reactor Engineers
- * @link
- */
 class CI_Migration {
 
 	protected $_migration_enabled = FALSE;
@@ -323,6 +296,3 @@ class CI_Migration {
 		return get_instance()->$var;
 	}
 }
-
-/* End of file Migration.php */
-/* Location: ./system/libraries/Migration.php */

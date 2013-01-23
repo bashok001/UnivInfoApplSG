@@ -1,31 +1,4 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP 5.1.6 or newer
- *
- * @package		CodeIgniter
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 1.0
- * @filesource
- */
-
-// ------------------------------------------------------------------------
-
-/**
- * CodeIgniter String Helpers
- *
- * @package		CodeIgniter
- * @subpackage	Helpers
- * @category	Helpers
- * @author		ExpressionEngine Dev Team
- * @link		http://codeigniter.com/user_guide/helpers/string_helper.html
- */
-
-// ------------------------------------------------------------------------
 
 /**
  * Trim Slashes
@@ -301,7 +274,3 @@ if ( ! function_exists('repeater'))
 		return (($num > 0) ? str_repeat($data, $num) : '');
 	}
 }
-
-
-/* End of file string_helper.php */
-/* Location: ./system/helpers/string_helper.php */

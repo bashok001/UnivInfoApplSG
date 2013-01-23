@@ -1,29 +1,4 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP 4.3.2 or newer
- *
- * @package		CodeIgniter
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2006 - 2012 EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 2.0
- * @filesource	
- */
-
-// ------------------------------------------------------------------------
-
-/**
- * CodeIgniter Memcached Caching Class 
- *
- * @package		CodeIgniter
- * @subpackage	Libraries
- * @category	Core
- * @author		ExpressionEngine Dev Team
- * @link		
- */
 
 class CI_Cache_file extends CI_Driver {
 
@@ -189,7 +164,3 @@ class CI_Cache_file extends CI_Driver {
 
 	// ------------------------------------------------------------------------
 }
-// End Class
-
-/* End of file Cache_file.php */
-/* Location: ./system/libraries/Cache/drivers/Cache_file.php */

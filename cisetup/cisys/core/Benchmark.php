@@ -1,32 +1,4 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP 5.1.6 or newer
- *
- * @package		CodeIgniter
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 1.0
- * @filesource
- */
-
-// ------------------------------------------------------------------------
-
-/**
- * CodeIgniter Benchmark Class
- *
- * This class enables you to mark points and calculate the time difference
- * between them.  Memory consumption can also be displayed.
- *
- * @package		CodeIgniter
- * @subpackage	Libraries
- * @category	Libraries
- * @author		ExpressionEngine Dev Team
- * @link		http://codeigniter.com/user_guide/libraries/benchmark.html
- */
 class CI_Benchmark {
 
 	/**
@@ -111,8 +83,3 @@ class CI_Benchmark {
 	}
 
 }
-
-// END CI_Benchmark class
-
-/* End of file Benchmark.php */
-/* Location: ./system/core/Benchmark.php */

@@ -1,31 +1,5 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP 5.1.6 or newer
- *
- * @package		CodeIgniter
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 1.0
- * @filesource
- */
 
-// ------------------------------------------------------------------------
-
-/**
- * Active Record Class
- *
- * This is the platform-independent base Active Record implementation class.
- *
- * @package		CodeIgniter
- * @subpackage	Drivers
- * @category	Database
- * @author		ExpressionEngine Dev Team
- * @link		http://codeigniter.com/user_guide/database/
- */
 class CI_DB_active_record extends CI_DB_driver {
 
 	var $ar_select				= array();
@@ -2040,6 +2014,3 @@ class CI_DB_active_record extends CI_DB_driver {
 		$this->_reset_run($ar_reset_items);
 	}
 }
-
-/* End of file DB_active_rec.php */
-/* Location: ./system/database/DB_active_rec.php */

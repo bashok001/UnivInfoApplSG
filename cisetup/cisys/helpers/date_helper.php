@@ -1,31 +1,4 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP 5.1.6 or newer
- *
- * @package		CodeIgniter
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 1.0
- * @filesource
- */
-
-// ------------------------------------------------------------------------
-
-/**
- * CodeIgniter Date Helpers
- *
- * @package		CodeIgniter
- * @subpackage	Helpers
- * @category	Helpers
- * @author		ExpressionEngine Dev Team
- * @link		http://codeigniter.com/user_guide/helpers/date_helper.html
- */
-
-// ------------------------------------------------------------------------
 
 /**
  * Get "now" time
@@ -605,7 +578,3 @@ if ( ! function_exists('timezones'))
 		return ( ! isset($zones[$tz])) ? 0 : $zones[$tz];
 	}
 }
-
-
-/* End of file date_helper.php */
-/* Location: ./system/helpers/date_helper.php */

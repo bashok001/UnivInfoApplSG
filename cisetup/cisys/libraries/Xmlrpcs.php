@@ -1,17 +1,4 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP 5.1.6 or newer
- *
- * @package		CodeIgniter
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 1.0
- * @filesource
- */
 
 if ( ! function_exists('xml_parser_create'))
 {
@@ -23,17 +10,6 @@ if ( ! class_exists('CI_Xmlrpc'))
 	show_error('You must load the Xmlrpc class before loading the Xmlrpcs class in order to create a server.');
 }
 
-// ------------------------------------------------------------------------
-
-/**
- * XML-RPC server class
- *
- * @package		CodeIgniter
- * @subpackage	Libraries
- * @category	XML-RPC
- * @author		ExpressionEngine Dev Team
- * @link		http://codeigniter.com/user_guide/libraries/xmlrpc.html
- */
 class CI_Xmlrpcs extends CI_Xmlrpc
 {
 	var $methods		= array();	//array of methods mapped to function names and signatures
@@ -605,8 +581,3 @@ class CI_Xmlrpcs extends CI_Xmlrpc
 	}
 
 }
-// END XML_RPC_Server class
-
-
-/* End of file Xmlrpcs.php */
-/* Location: ./system/libraries/Xmlrpcs.php */

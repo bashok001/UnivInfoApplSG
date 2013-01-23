@@ -1,29 +1,4 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP 5.1.6 or newer
- *
- * @package		CodeIgniter
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 1.0
- * @filesource
- */
-
-// ------------------------------------------------------------------------
-
-/**
- * Language Class
- *
- * @package		CodeIgniter
- * @subpackage	Libraries
- * @category	Language
- * @author		ExpressionEngine Dev Team
- * @link		http://codeigniter.com/user_guide/libraries/language.html
- */
 class CI_Lang {
 
 	/**
@@ -144,7 +119,6 @@ class CI_Lang {
 	{
 		$value = ($line == '' OR ! isset($this->language[$line])) ? FALSE : $this->language[$line];
 
-		// Because killer robots like unicorns!
 		if ($value === FALSE)
 		{
 			log_message('error', 'Could not find the language line "'.$line.'"');
@@ -154,7 +128,3 @@ class CI_Lang {
 	}
 
 }
-// END Language Class
-
-/* End of file Lang.php */
-/* Location: ./system/core/Lang.php */

@@ -1,31 +1,4 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP 5.1.6 or newer
- *
- * @package		CodeIgniter
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 1.0
- * @filesource
- */
-
-// ------------------------------------------------------------------------
-
-/**
- * CodeIgniter XML Helpers
- *
- * @package		CodeIgniter
- * @subpackage	Helpers
- * @category	Helpers
- * @author		ExpressionEngine Dev Team
- * @link		http://codeigniter.com/user_guide/helpers/xml_helper.html
- */
-
-// ------------------------------------------------------------------------
 
 /**
  * Convert Reserved XML characters to Entities
@@ -64,8 +37,3 @@ if ( ! function_exists('xml_convert'))
 		return $str;
 	}
 }
-
-// ------------------------------------------------------------------------
-
-/* End of file xml_helper.php */
-/* Location: ./system/helpers/xml_helper.php */

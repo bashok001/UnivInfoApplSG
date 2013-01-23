@@ -1,31 +1,4 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP 5.1.6 or newer
- *
- * @package		CodeIgniter
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 1.0
- * @filesource
- */
-
-// ------------------------------------------------------------------------
-
-/**
- * CodeIgniter Hooks Class
- *
- * Provides a mechanism to extend the base system without hacking.
- *
- * @package		CodeIgniter
- * @subpackage	Libraries
- * @category	Libraries
- * @author		ExpressionEngine Dev Team
- * @link		http://codeigniter.com/user_guide/libraries/encryption.html
- */
 class CI_Hooks {
 
 	/**
@@ -241,8 +214,3 @@ class CI_Hooks {
 	}
 
 }
-
-// END CI_Hooks class
-
-/* End of file Hooks.php */
-/* Location: ./system/core/Hooks.php */

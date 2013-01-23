@@ -1,31 +1,5 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP 5.1.6 or newer
- *
- * @package		CodeIgniter
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 1.0
- * @filesource
- */
 
-// ------------------------------------------------------------------------
-
-/**
- * CodeIgniter Encryption Class
- *
- * Provides two-way keyed encoding using XOR Hashing and Mcrypt
- *
- * @package		CodeIgniter
- * @subpackage	Libraries
- * @category	Libraries
- * @author		ExpressionEngine Dev Team
- * @link		http://codeigniter.com/user_guide/libraries/encryption.html
- */
 class CI_Encrypt {
 
 	var $CI;
@@ -176,8 +150,6 @@ class CI_Encrypt {
 	 * returns a newly encoded string using the improved method added in 2.0.0
 	 * This allows for backwards compatibility and a method to transition to the
 	 * new encryption algorithms.
-	 *
-	 * For more details, see http://codeigniter.com/user_guide/installation/upgrade_200.html#encryption
 	 *
 	 * @access	public
 	 * @param	string
@@ -540,8 +512,3 @@ class CI_Encrypt {
 	}
 
 }
-
-// END CI_Encrypt class
-
-/* End of file Encrypt.php */
-/* Location: ./system/libraries/Encrypt.php */
