@@ -79,8 +79,8 @@ class CI_Exceptions {
 	 */
 	function show_404($page = '', $log_error = TRUE)
 	{
-		$heading = "404 Page Not Found";
-		$message = "The page you requested was not found.";
+		$heading = "Ouch! You beat us! 404 K.O.!";
+		$message = "Let's Try Again...  <a href=\"http://www.studiesglobal.com\">Home</a>";
 
 		// By default we log this, but allow a dev to skip it
 		if ($log_error)

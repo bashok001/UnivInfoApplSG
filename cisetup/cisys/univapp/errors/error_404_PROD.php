@@ -50,7 +50,7 @@ code {
 	width:90%;
 	height:540px;
 	text-align:right;
-	background:url('http://localhost/univapp/images/404.jpg') no-repeat 0 0;
+	background:url('http://www.studiesglobal.com/images/404.jpg') no-repeat 0 0;
 	background-attachment: fixed;
 	background-position:left;
 	font-weight: bold;
