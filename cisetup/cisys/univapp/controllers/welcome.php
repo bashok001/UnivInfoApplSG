@@ -5,9 +5,8 @@ if (!defined('BASEPATH'))
 class Welcome extends CI_Controller {
 
 	public function index() {
-		$data = array('title' => 'Title goes here', );
-		$this -> load -> library('templateLibrary');
-		$this -> template -> load('CoreTemplate', 'content', $data);
+		//$data = array('title' => 'Title goes here', );
+		//$this -> templatelibrary -> load('CoreTemplate', 'header', 'contentHome', 'sideBarHome', 'footer', $data, $data);
 		//$this->load->view('welcome_message');
 	}
 

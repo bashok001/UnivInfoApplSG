@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title><?php echo $title; ?></title>
-   </head>
+   <?php echo $header; ?>
    <body>
-      <h1>Default template</h1>
       <div class="wrapper">
-         <?php echo $body; ?>
+         <?php echo $content; ?>
+         <?php echo $sidebar; ?>
       </div>
+	<?php echo $footer; ?>
    </body>
 </html>
