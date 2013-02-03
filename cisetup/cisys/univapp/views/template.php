@@ -5,7 +5,7 @@ if (!defined('BASEPATH'))
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title><?php echo $this -> template -> title -> prepend('Studies Global - '); ?></title>
+		<title>"<?php echo $this -> template -> title -> prepend('Studies Global - '); ?>"</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="description" content="<?php echo $this -> template -> description; ?>" />
 		<?php $this -> template -> meta -> add('robots', 'index,follow'); ?>
@@ -26,9 +26,9 @@ if (!defined('BASEPATH'))
 	</head>
 	<body>
 		<?php // Login Panels
-		//echo $this -> template -> widget("login", $params);
-		$this->template->partial->widget('login', array(), $overwrite=FALSE);
+		echo $this -> template -> _login -> widget('login', array('auth' => '1'), $overwrite = TRUE);
 		?>
+
 		<div class="shell">
 			<div class="border">
 				<div id="header">
